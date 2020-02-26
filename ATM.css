@@ -1,0 +1,151 @@
+/*Fonts*/
+@font-face {
+    font-family: Shabnam-FD;
+    src: url('assets/fonts/Shabnam-FD.ttf');
+}
+
+/*Body*/
+body{
+    text-align: center;
+    font-family: 'Shabnam-FD', sans-serif;
+}
+
+input[type="checkbox"]{
+    position: static;
+    margin-left: 0;
+}
+
+/*Header*/
+#header{
+    padding: 2rem 0 1.5rem;
+}
+
+.logo{
+    float: right;
+    height: 4rem;
+}
+
+/*Steps*/
+#step-1{
+    background-color: #f5f5f5;
+    padding: 1rem 0;
+}
+
+#step-2{
+    background-color: #f5f5f5;
+    padding: 1rem 0 0.5rem;
+}
+
+/*Bills*/
+#billsSec{
+    background-color: #eceff1;
+    border-top: 1px solid #cfd8dc;
+    border-bottom: 1px solid #cfd8dc;
+    padding: 1rem 0;
+}
+
+.bill-card{
+    background-color: #f5f5f5;
+}
+
+/*Input*/
+#input{
+    background-color: #f5f5f5;
+    padding: 1rem 0 2rem;
+    border-bottom: 1px solid #cfd8dc;
+}
+
+.input-group{
+    margin: auto;
+}
+
+#input .btn {
+    border-radius: .25rem;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+#input input {
+    outline: none;
+    border-radius: 0;
+    border-top-right-radius: .25rem;
+    border-bottom-right-radius: .25rem;
+}
+
+.form-control:focus {
+    box-shadow: none;
+}
+
+.input-group {
+    width: 30%;
+}
+
+/*Result*/
+#resultSec{
+    background-color: #eceff1;
+    border-bottom: 1px solid #cfd8dc;
+    color: #393e46;
+    padding: 1rem 0;
+    min-height: 150px;
+}
+
+#timeout{
+    margin-bottom: 10px;
+}
+
+.fa-exclamation-triangle {
+    color: red;
+    margin-bottom: 25px;
+}
+
+.fa-check-circle {
+    color: green;
+    margin-bottom: 25px;
+}
+
+.thank-note {
+    margin-top: 35px;
+}
+
+/*Footer*/
+#footer{
+    background-color: #d7dee0;
+    color: #393e46;
+    padding: 1rem 0 0.5rem;
+    text-align: right;
+}
+
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+.social{
+    text-align: center;
+}
+
+.mobile{
+    text-align: center;
+}
+
+.social-icons{
+    margin-top: 20px;
+}
+
+.social-icons i {
+    opacity: 0.8;
+    margin-left: 10px;
+}
+
+.social-icons i:hover {
+    opacity: 1;
+}
+
+.copyright{
+    margin: 0 auto;
+    width: 30%;
+    padding-top: 1rem;;
+    border-top: 1px solid #cfd8dc;
+    font-size: small;
+    text-align: center;
+}
+

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <title>ATM</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+    <link rel="stylesheet" href="ATM.css">
+</head>
+
+<body>
+    <header id="header">
+        <div class="container-fluid">
+            <img src="assets/img/logo.png" class="logo" alt="parsian-logo">
+            <h1>ATM بانک پارسیان</h1>
+        </div>
+    </header>
+
+    <main>
+        <section id="step-1">
+            <div class="container-fluid">
+                <h5>۱) لطفا ابتدا اسکناس های مورد تقاضای خود را مشخص کنید.</h5>
+            </div>
+        </section>
+
+        <section id="billsSec">
+            <div class="container-fluid">
+                <div class="row" id="bills">
+
+                </div>
+            </div>
+        </section>
+
+        <section id="step-2">
+            <div class="container-fluid">
+                <h5>۲) لطفا مبلغ مورد نیاز خود رابه تومان وارد کنید.</h5>
+            </div>
+        </section>
+
+        <section id="input">
+            <div class="container-fluid">
+                <div class="input-group">
+                    <input type="number" id="inputValue" class="form-control"
+                           placeholder="مبلغ دلخواه خود را وارد کنید"
+                           aria-label="" aria-describedby="basic-addon1"
+                           min="1000" step="1000">
+                    <div class="input-group-append">
+                        <button class="btn btn-primary" id="giveMoney"
+                                type="button">دریافت وجه نقد</button>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <section id="resultSec">
+            <div class="container-fluid">
+                <div id="timeout">
+                    <span>زمان باقی مانده: </span>
+                    <span id="timer">01:00</span>
+                </div>
+                <div id="result">
+
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer id="footer">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-4">
+                    <div>هفت روز هفته ، ۲۴ ساعت شبانه‌روز پاسخگوی شما هستیم</div>
+                    <div>شماره تماس :
+                        81151000 - ۰۲۱
+                        </div>
+                    <div>
+                        آدرس ایمیل :
+                        info@parsian-bank.ir</div>
+                </div>
+                <div class="col-4 mobile">
+                    <div>با نصب اپلیکشن موبایل راحت تر تراکنش‌های مالی خود را انجام دهید:</div>
+                    <div class="download-btns">
+                        <button type="button" class="download-button btn btn-sm btn-dark"><i class="fab fa-apple"></i> دانلود</button>
+                        <button type="button" class="download-button btn btn-sm btn-outline-dark"><i class="fab fa-google-play"></i> دانلود</button>
+                    </div>
+                </div>
+                <div class="col-4 social">
+                    <div>ما را در شبکه‌های اجتماعی دنبال کنید:</div>
+                    <div class="social-icons">
+                        <i class="fab fa-linkedin fa-2x"></i>
+                        <i class="fab fa-twitter fa-2x"></i>
+                        <i class="fab fa-telegram fa-2x"></i>
+                        <i class="fab fa-instagram fa-2x"></i>
+                    </div>
+                </div>
+            </div>
+
+            <p class="copyright">کلیه حقوق متعلق به بانک پارسیان است.</p>
+        </div>
+    </footer>
+
+    <script src="ATM.js"></script>
+</body>
+</html>
